@@ -44,8 +44,13 @@
 <body>
     <main>
         <section id="container">
-            <img src="/images/me.webp" width="300" height="auto" alt="Cartoon version of me"
-                title="Cartoon version of me">
+            <picture>
+                <source srcset="/images/me.webp" type="image/webp">
+                <source srcset="/images/me.png" type="image/png">
+                <img src="/images/me.png" width="300" height="auto" alt="Cartoon version of me"
+                    title="Cartoon version of me">
+            </picture>
+
             <h1>Oliver Bevan</h1>
             <p>Programmer & Student ☕</p>
             <ul>
